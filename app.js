@@ -6,6 +6,7 @@ const author=require('./routes/Author')
 const user=require('./routes/User')
 const admin=require('./routes/Admin')
 const comment=require('./routes/Comment')
+app.use(express.json())
 
 
 app.use('/api/v1/blog',blog)
